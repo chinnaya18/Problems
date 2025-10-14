@@ -20,7 +20,7 @@ void enqueue(int item) {
     }
 }
 
-void dequeue() {
+int dequeue() {
     if (front == -1 || front > rear) {
         printf("The queue is empty!\n");
     } else {
